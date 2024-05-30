@@ -1133,6 +1133,10 @@ input:checked + .toggle-bg {
   margin: 2.25rem;
 }
 
+.m-3 {
+  margin: 0.75rem;
+}
+
 .mx-10 {
   margin-left: 2.5rem;
   margin-right: 2.5rem;
@@ -1151,6 +1155,16 @@ input:checked + .toggle-bg {
 .my-3 {
   margin-top: 0.75rem;
   margin-bottom: 0.75rem;
+}
+
+.my-5 {
+  margin-top: 1.25rem;
+  margin-bottom: 1.25rem;
+}
+
+.mx-3 {
+  margin-left: 0.75rem;
+  margin-right: 0.75rem;
 }
 
 .mb-1 {
@@ -1217,6 +1231,22 @@ input:checked + .toggle-bg {
   margin-top: 1.5rem;
 }
 
+.mb-16 {
+  margin-bottom: 4rem;
+}
+
+.mb-14 {
+  margin-bottom: 3.5rem;
+}
+
+.mt-10 {
+  margin-top: 2.5rem;
+}
+
+.mb-20 {
+  margin-bottom: 5rem;
+}
+
 .block {
   display: block;
 }
@@ -1281,6 +1311,10 @@ input:checked + .toggle-bg {
   height: 100%;
 }
 
+.h-\[50\%\] {
+  height: 50%;
+}
+
 .w-1\/2 {
   width: 50%;
 }
@@ -1317,12 +1351,16 @@ input:checked + .toggle-bg {
   width: 100%;
 }
 
-.w-24 {
-  width: 6rem;
+.w-\[\] {
+  width: ;
 }
 
-.w-52 {
-  width: 13rem;
+.w-\[5-\%\] {
+  width: 5-%;
+}
+
+.w-\[50\%\] {
+  width: 50%;
 }
 
 .max-w-md {
@@ -1335,6 +1373,10 @@ input:checked + .toggle-bg {
 
 .flex-1 {
   flex: 1 1 0%;
+}
+
+.flex-\[1\] {
+  flex: 1;
 }
 
 .flex-shrink {
@@ -1624,10 +1666,6 @@ input:checked + .toggle-bg {
 
 .bg-cover {
   background-size: cover;
-}
-
-.bg-fixed {
-  background-attachment: fixed;
 }
 
 .object-cover {

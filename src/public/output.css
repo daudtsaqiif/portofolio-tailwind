@@ -1133,13 +1133,14 @@ input:checked + .toggle-bg {
   margin: 2.25rem;
 }
 
-.m-3 {
-  margin: 0.75rem;
-}
-
 .mx-10 {
   margin-left: 2.5rem;
   margin-right: 2.5rem;
+}
+
+.mx-3 {
+  margin-left: 0.75rem;
+  margin-right: 0.75rem;
 }
 
 .mx-5 {
@@ -1150,21 +1151,6 @@ input:checked + .toggle-bg {
 .mx-auto {
   margin-left: auto;
   margin-right: auto;
-}
-
-.my-3 {
-  margin-top: 0.75rem;
-  margin-bottom: 0.75rem;
-}
-
-.my-5 {
-  margin-top: 1.25rem;
-  margin-bottom: 1.25rem;
-}
-
-.mx-3 {
-  margin-left: 0.75rem;
-  margin-right: 0.75rem;
 }
 
 .mb-1 {
@@ -1203,6 +1189,10 @@ input:checked + .toggle-bg {
   margin-inline-start: 1rem;
 }
 
+.mt-10 {
+  margin-top: 2.5rem;
+}
+
 .mt-2 {
   margin-top: 0.5rem;
 }
@@ -1229,22 +1219,6 @@ input:checked + .toggle-bg {
 
 .mt-6 {
   margin-top: 1.5rem;
-}
-
-.mb-16 {
-  margin-bottom: 4rem;
-}
-
-.mb-14 {
-  margin-bottom: 3.5rem;
-}
-
-.mt-10 {
-  margin-top: 2.5rem;
-}
-
-.mb-20 {
-  margin-bottom: 5rem;
 }
 
 .block {
@@ -1307,10 +1281,6 @@ input:checked + .toggle-bg {
   height: 2.25rem;
 }
 
-.h-full {
-  height: 100%;
-}
-
 .h-\[50\%\] {
   height: 50%;
 }
@@ -1351,18 +1321,6 @@ input:checked + .toggle-bg {
   width: 100%;
 }
 
-.w-\[\] {
-  width: ;
-}
-
-.w-\[5-\%\] {
-  width: 5-%;
-}
-
-.w-\[50\%\] {
-  width: 50%;
-}
-
 .max-w-md {
   max-width: 28rem;
 }
@@ -1373,10 +1331,6 @@ input:checked + .toggle-bg {
 
 .flex-1 {
   flex: 1 1 0%;
-}
-
-.flex-\[1\] {
-  flex: 1;
 }
 
 .flex-shrink {
@@ -1666,11 +1620,6 @@ input:checked + .toggle-bg {
 
 .bg-cover {
   background-size: cover;
-}
-
-.object-cover {
-  -o-object-fit: cover;
-     object-fit: cover;
 }
 
 .p-1 {

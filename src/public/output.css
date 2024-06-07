@@ -1429,7 +1429,7 @@ input:checked + .toggle-bg {
 }
 
 .animate-marquee {
-  animation: marquee 50s linear infinite;
+  animation: marquee 40s linear infinite;
 }
 
 @keyframes marquee2 {
@@ -1443,7 +1443,7 @@ input:checked + .toggle-bg {
 }
 
 .animate-marquee2 {
-  animation: marquee2 50s linear infinite;
+  animation: marquee2 40s linear infinite;
 }
 
 .cursor-default {
